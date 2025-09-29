@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the-book-club-boys</title>
+    <link rel="stylesheet" href="./styles/styles-base.css">
+    <link rel="stylesheet" href="./styles/userInfo.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__main">the book shop boys</div>
+        <div class="header__sub">"NO ADMITTANCE EXCEPT ON PARTY BUSINESS"</div>
+        <div class="menu">
+            <a href="homePage.html" title="Goes to main page">Home</a>
+            <a href="books.html" title="Goes to the books i have read this year">The Books</a>
+            <a href="reading.html" title="Goes to book i am currently reading">Reading</a>
+            <a href="suggestion.html" title="Want to suggest a book?">Suggestion</a>
+            <a class="glow" href="contact.html" title="About me!">Contact</a>
+        </div>
+        <h1 class="header__sub--page">My contact information</h1>
+    </header>
+    <main class="main">
+        <div class="contact">
+            <div class="headshot">
+                <img src="./images/i need it.png" alt="picture of me" height="auto" width="500px">
+            </div>
+            <div class="information">
+                <h2>About me!</h2>
+                <p>I’m 26, focused on building a foundation for long-term growth. This stage is about balancing ambition with adaptability, learning from every challenge, and refining my skills. I approach work with accountability and curiosity, aiming for sustainable progress rather than quick wins. At this point, I’m defined by the direction I’m choosing, not just past achievements.</p>
+            </div>
+            <div class="headshot">
+                <img src="./images/blade shmonner.png" alt="picture of me" height="auto" width="500px">
+            </div>
+            <div class="information">
+                <h2>information</h2>
+                <ul>
+                    <li>Villiam Agnas</li>
+                    <li>villiamagnas@gmail.com</li>
+                    <li>0704471081</li>
+                    <li>Status: Chilling</li>
+                </ul>
+            </div>
+        </div>
+        <div class="wrapper">
+            <form class="user__information" action="mailto: villiamagnas@gmail.com" method="post" enctype="text/plain">
+                <fieldset>
+                    <legend>Contact me</legend>
+                    <div class="user__input">
+                        <label for="first__name">First Name</label>
+                        <input type="text" name="first__name" id="first__name" placeholder="Enter your first name" required>
+                    </div>
+                    <div class="user__input">
+                        <label for="last__name">Name of the author</label>
+                        <input type="text" name="last__name" id="last__name" placeholder="Enter your last name" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Write message</legend>
+                    <div class="user__input">
+                        <label for="description">who are you?</label>
+                        <textarea name="description" id="description"></textarea>
+                    </div>
+                </fieldset>
+                <button class="submit">Send</button>
+            </form>
+        </div>
+        <div class="navigation">
+            <a href="#header">Go to top</a>
+            <a href="#footer">Go to Bottom</a>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>&copy; Villiam 2025</p>
+    </footer>
+</body>
+</html>

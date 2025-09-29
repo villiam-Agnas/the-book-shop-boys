@@ -1,0 +1,38 @@
+.main__container {
+    border: 2px solid black;
+    margin: 6px;
+    border-radius: 5px;
+    padding: 16px;
+}
+
+.main__container--content {
+    display: inline-block;
+    width: calc(85% - 26px);
+    margin: 24px;
+    padding: 6px;
+    h2{
+        text-decoration: underline;
+    }
+    p{
+        font-size: 2rem;
+    }
+}
+
+.main__container--image {
+    display: inline-block;
+    height: 150px;
+    width: calc(10% - 26px);
+    margin: 24px;
+}
+
+.main__container--image img {
+    max-width: 100%;
+    min-width: 100px;
+    height: auto;
+}
+
+@media screen and (max-width: 845px) {
+    .main__container--content p{
+        font-size: 1rem;
+    }
+}

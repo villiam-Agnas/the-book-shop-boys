@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the-book-club-boys</title>
+    <link rel="stylesheet" href="./styles/styles-base.css">
+    <link rel="stylesheet" href="./styles/userInfo.css">
+    <link rel="stylesheet" href="./styles/suggestion.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__main">the book shop boys</div>
+        <div class="header__sub">"NO ADMITTANCE EXCEPT ON PARTY BUSINESS"</div>
+        <div class="menu">
+            <a href="homePage.html" title="Goes to main page">Home</a>
+            <a href="books.html" title="Goes to the books i have read this year">The Books</a>
+            <a href="reading.html" title="Goes to book i am currently reading">Reading</a>
+            <a class="glow" href="suggestion.html" title="Want to suggest a book?">Suggestion</a>
+            <a href="contact.html" title="About me!">Contact</a>
+        </div>
+        <h1 class="header__sub--page">Want to suggest a book?</h1>
+    </header>
+    <main class="main">
+        <div class="wrapper">
+           <form class="user__information" action="mailto: villiamagnas@gmail.com" method="post" enctype="text/plain">
+               <fieldset>
+                    <legend>What should i read</legend>
+                    <div class="user__input">
+                        <label for="book">Name of the book</label>
+                        <input type="text" name="book" id="book" placeholder="Enter name of the book" required>
+                    </div>
+                    <div class="user__input">
+                        <label for="author">Name of the author</label>
+                        <input type="text" name="author" id="author" placeholder="Enter name of the author" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Want to describe the book?</legend>
+                    <div class="user__input">
+                        <label for="description">In a few words, what is the book about</label>
+                        <textarea name="description" id="description"></textarea>
+                    </div>
+                </fieldset>
+                <button class="submit">Send</button>
+           </form>
+        </div>
+        <div class="navigation">
+            <a href="#header">Go to top</a>
+            <a href="#footer">Go to Bottom</a>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>&copy; Villiam 2025</p>
+    </footer> 
+</body>
+</html>
